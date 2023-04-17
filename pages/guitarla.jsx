@@ -17,18 +17,38 @@ const guitarla = () => {
           priority
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">CRYPTOCURRENCY QUOTE</h2>
+          <h2 className="py-2">ECOMMERCE APP</h2>
           <h3> Remix Run / Strapi</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid  md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p> This app was built on Remix and is hosted on Strapi. Users are able to buy guitars, selecting the quantity and added to their cart, it is a full ecommerce app about a guitar store to try out front-end with the new framework of react Remix Run.
+        <div className="col-span-4 p-4">
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">Project</p>
+          <h2 className="py-4">Overview</h2>
+          <p>
+            {" "}
+            This app was built on Remix and is hosted on Strapi. Users are able
+            to buy guitars, selecting the quantity and added to their cart, it
+            is a full ecommerce app about a guitar store to try out front-end
+            with the new framework of react Remix Run.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8 ">Demo</button>
-          <button className="px-8 py-2 mt-4 ">Code</button>
+
+          <div className="flex flex-col  mt-5 md:flex-row justify-start">
+
+          <Link
+            href="https://kenny-guitarla-ecommerce.netlify.app/"
+            target="_blank"
+            className="md:mr-3"
+          >
+            <button className="px-8 py-2 mt-4 mr-8 w-full  ">Link</button>
+          </Link>
+          <Link
+            href="https://github.com/KennySabee/GuitarLAFrontRemix"
+            target="_blank"
+          >
+            <button className="px-8 py-2 mt-4  w-full">Code</button>
+          </Link>
+          </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -54,7 +74,7 @@ const guitarla = () => {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <p className="underline cursor-pointer p-4">Back</p>
         </Link>
       </div>
     </div>

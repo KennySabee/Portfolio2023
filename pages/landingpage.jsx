@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import folieProject from "@/public/assets/projects/folieProject.png";
-import {RiRadioButtonFill} from 'react-icons/ri'
+import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
 const property = () => {
@@ -22,24 +22,50 @@ const property = () => {
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid  md:grid-cols-5 gap-8 pt-8">
-        <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>Simple Landing Page about a martial clothing store to try out design, this was my first project on programming world.</p>
-          <button className="px-8 py-2 mt-4 mr-8 ">Demo</button>
-          <button className="px-8 py-2 mt-4 ">Code</button>
+        <div className="col-span-4 p-4">
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+            Project
+          </p>
+          <h2 className="py-4">Overview</h2>
+          <p>
+            Simple Landing Page about a martial clothing store to try out
+            design, this was my first project on programming world.
+          </p>
+          <div className="flex flex-col  mt-5 md:flex-row justify-start">
+            <Link
+              href="https://kenny-landingpage-folie.netlify.app/"
+              target="_blank"
+              className="md:mr-3"
+            >
+              <button className="px-8 py-2 mt-4 mr-8 w-full ">Link</button>
+            </Link>
+            <Link
+              href="https://github.com/KennySabee/Proyecto1-Landing-Page"
+              target="_blank"
+              
+            >
+              <button className="px-8 py-2 mt-4 w-full ">Code</button>
+            </Link>
+          </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center "><RiRadioButtonFill className="pr-1"/>Html</p>
-              <p className="text-gray-600 py-2 flex items-center "><RiRadioButtonFill className="pr-1"/>CSS</p>
-             
+              <p className="text-gray-600 py-2 flex items-center ">
+                <RiRadioButtonFill className="pr-1" />
+                Html
+              </p>
+              <p className="text-gray-600 py-2 flex items-center ">
+                <RiRadioButtonFill className="pr-1" />
+                CSS
+              </p>
             </div>
           </div>
         </div>
-        <Link href="/#projects"><p className="underline cursor-pointer">Back</p></Link>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer p-4">Back</p>
+        </Link>
       </div>
     </div>
   );
