@@ -21,12 +21,15 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 ">
             <div className="lg:p-4 h-full">
               <div>
+                <Link href='/#form'>
+                
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={contact}
                   alt="contact image"
                   priority
                 />
+                </Link>
               </div>
               <div>
                 <h2 className="py-2">Kenny Merizalde</h2>
@@ -71,7 +74,7 @@ const Contact = () => {
           </div>
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
-            <div className="p-4">
+            <div className="p-4" id="form">
               <Form />
             </div>
           </div>
