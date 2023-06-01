@@ -1,8 +1,9 @@
 
 import criptoProject from '@/public/assets/projects/criptoProject.png'
-import folieProject from '@/public/assets/projects/folieProject.png'
 import gastosProject from '@/public/assets/projects/gastosProject.png'
 import remixGuitarProject from '@/public/assets/projects/remixGuitarProject.png'
+import clubChinoYv from '@/public/assets/projects/clubChinoYv.png'
+import gpt4Summarize from '@/public/assets/projects/gpt4Summarize.png'
 
 import ProjectItems from './ProjectItems'
 
@@ -15,17 +16,17 @@ const Projects = () => {
             <h2 className="py-4">What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItems 
-                img={folieProject}
-                title='Landing Page'
-                useWith='Html & Css'
-                url='/landingpage'
+                img={clubChinoYv}
+                title='Static Web Site'
+                useWith='NextJs & Tailwind CSS'
+                url='/clubchinoyv'
 
                 />
                 <ProjectItems 
-                img={criptoProject}
-                title='Crypto App'
+                img={gpt4Summarize}
+                title='GPT AI Website '
                 useWith='React'
-                url='/crypto'
+                url='/gptwebsite'
                 priority
 
                 />

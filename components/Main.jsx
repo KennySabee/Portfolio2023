@@ -26,8 +26,9 @@ const Main = () => {
             <Link
               href="https://www.linkedin.com/in/kenny-merizalde/"
               target="_blank"
+              
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 ">
                 <FaLinkedinIn />
               </div>
             </Link>

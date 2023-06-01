@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import folieProject from "@/public/assets/projects/folieProject.png";
+import clubChinoYv from "@/public/assets/projects/clubChinoYv.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -10,15 +10,15 @@ const property = () => {
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 " />
         <Image
-          src={folieProject}
-          alt="img folie"
+          src={clubChinoYv}
+          alt="img_chinoyv"
           className="absolute z-[1] object-cover"
           fill
           priority
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Landing Page</h2>
-          <h3>Html / Css</h3>
+          <h2 className="py-2">Static Web Site</h2>
+          <h3>Next Js & Tailwind CSS</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid  md:grid-cols-5 gap-8 pt-8">
@@ -28,21 +28,19 @@ const property = () => {
           </p>
           <h2 className="py-4">Overview</h2>
           <p>
-            Simple Landing Page about a martial clothing store to try out
-            design, this was my first project on programming world.
+            Static Web Site about a chinese academy in Ecuador to try out design, and help the academy to have a digital presence, this was my first project made for my chinese teacher.
           </p>
           <div className="flex flex-col  mt-5 md:flex-row justify-start">
             <Link
-              href="https://kenny-landingpage-folie.netlify.app/"
+              href="https://clubchinoyv.netlify.app/"
               target="_blank"
               className="md:mr-3"
             >
               <button className="px-8 py-2 mt-4 mr-8 w-full ">Link</button>
             </Link>
             <Link
-              href="https://github.com/KennySabee/Proyecto1-Landing-Page"
+              href="https://github.com/KennySabee/chinoYV"
               target="_blank"
-              
             >
               <button className="px-8 py-2 mt-4 w-full ">Code</button>
             </Link>
@@ -54,11 +52,11 @@ const property = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center ">
                 <RiRadioButtonFill className="pr-1" />
-                Html
+                Next Js
               </p>
               <p className="text-gray-600 py-2 flex items-center ">
                 <RiRadioButtonFill className="pr-1" />
-                CSS
+                Tailwind CSS
               </p>
             </div>
           </div>
