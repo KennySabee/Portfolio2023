@@ -1,7 +1,7 @@
 
 import criptoProject from '@/public/assets/projects/criptoProject.png'
 import gastosProject from '@/public/assets/projects/gastosProject.png'
-import remixGuitarProject from '@/public/assets/projects/remixGuitarProject.png'
+import itacaPetShop from '@/public/assets/projects/itacaPetShop.png'
 import clubChinoYv from '@/public/assets/projects/clubChinoYv.png'
 import gpt4Summarize from '@/public/assets/projects/gpt4Summarize.png'
 
@@ -37,11 +37,12 @@ const Projects = () => {
                 url='/gastos'
 
                 />
+                
                 <ProjectItems 
-                img={remixGuitarProject}
-                title='Ecommerce App'
-                useWith='RemixRun'
-                url='/guitarla'
+                img={itacaPetShop}
+                title='PetShop'
+                useWith='NextJs & Tailwind UI'
+                url='/prueba'
 
                 />
                
