@@ -42,7 +42,7 @@ const Projects = () => {
                 img={itacaPetShop}
                 title='PetShop'
                 useWith='NextJs & Tailwind UI'
-                url='/prueba'
+                url='/itacaPetshop'
 
                 />
                
